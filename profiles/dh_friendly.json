@@ -1,0 +1,29 @@
+{
+  "_comment": "DH-friendly: steep pure descents. Grade 20-50%, climbing >400 ft rejected and >120 ft severely penalized (climb weight 0.40). Dense, close-spaced candidate pool + road endpoints, because a 1000 ft drop at 20-50% grade means the start and end are only 0.4-1.0 mi apart \u2014 sparse peak/valley pools never form such pairs.",
+  "hard": {
+    "min_drop_ft": 1000.0,
+    "max_route_climb_ft": 400.0,
+    "min_avg_grade_pct": 20.0,
+    "max_avg_grade_pct": 50.0,
+    "min_pair_distance_mi": 0.2,
+    "max_pair_distance_mi": 2.0
+  },
+  "weights": {
+    "drop_efficiency": 0.25,
+    "access_proximity": 0.15,
+    "intermediate_climb": 0.4,
+    "grade_consistency": 0.15,
+    "drivability": 0.05
+  },
+  "ramps": {
+    "climb_tolerance_ft": 120.0,
+    "climb_tolerance_fraction": 0.08
+  },
+  "params": {
+    "local_extrema_window_m": 300.0,
+    "max_start_candidates": 150,
+    "max_end_candidates": 150,
+    "candidate_min_spacing_m": 500.0,
+    "road_endpoint_spacing_m": 400.0
+  }
+}

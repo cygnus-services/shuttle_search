@@ -1,0 +1,21 @@
+{
+  "hard": {
+    "min_drop_ft": 1000.0,
+    "max_drive_time_min": 45.0,
+    "min_avg_grade_pct": 6.0,
+    "max_avg_grade_pct": 100.0
+  },
+  "weights": {
+    "drop_efficiency": 0.30,
+    "access_proximity": 0.25,
+    "intermediate_climb": 0.15,
+    "grade_consistency": 0.15,
+    "drivability": 0.15
+  },
+  "params": {
+    "road_access_mi": 0.25,
+    "avg_shuttle_speed_mph": 25.0,
+    "routes_per_pair": 2,
+    "max_ranked_pairs": 25
+  }
+}

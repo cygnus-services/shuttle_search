@@ -1,0 +1,17 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Echo Lake dedicated search area",
+    "note": "Echo Lake basin plus the high country to its west; subset of the Philipsburg prepared rasters"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-113.46, 46.17],
+      [-113.26, 46.17],
+      [-113.26, 46.28],
+      [-113.46, 46.28],
+      [-113.46, 46.17]
+    ]]
+  }
+}

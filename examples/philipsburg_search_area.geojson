@@ -1,0 +1,17 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Philipsburg / Flint Creek Range test area",
+    "note": "Covers Philipsburg south to Georgetown Lake and Discovery area, Flint Creek Range core. DEM tiles n47w113+n47w114; NHD HUC8 17010202 (Flint-Rock) + 17010201 (east slope)"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-113.48, 46.16],
+      [-113.12, 46.16],
+      [-113.12, 46.42],
+      [-113.48, 46.42],
+      [-113.48, 46.16]
+    ]]
+  }
+}

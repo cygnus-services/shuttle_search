@@ -1,0 +1,27 @@
+{
+  "_comment": "Big-vertical hunt: maximize sustained descent; matches package defaults, spelled out for visibility/tuning.",
+  "hard": {
+    "min_drop_ft": 1000.0,
+    "max_drive_time_min": 45.0,
+    "min_avg_grade_pct": 6.0,
+    "max_avg_grade_pct": 100.0,
+    "max_pair_distance_mi": 8.0
+  },
+  "weights": {
+    "drop_efficiency": 0.30,
+    "access_proximity": 0.25,
+    "intermediate_climb": 0.15,
+    "grade_consistency": 0.15,
+    "drivability": 0.15
+  },
+  "params": {
+    "road_access_mi": 0.25
+  },
+  "ramps": {
+    "drop_full_credit_ft": 3000.0,
+    "access_preferred_ft": 250.0,
+    "drive_preferred_min": 15.0,
+    "climb_tolerance_fraction": 0.25,
+    "grade_std_ceiling_pct": 30.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Little Rocky Mountains test area (Phillips County)",
+    "note": "Zortman/Landusky area; DEM tile n48w109; find HUC8 per docs/DATA_SOURCING.md section 4"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-108.80, 47.83],
+      [-108.45, 47.83],
+      [-108.45, 48.02],
+      [-108.80, 48.02],
+      [-108.80, 47.83]
+    ]]
+  }
+}

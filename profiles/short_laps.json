@@ -1,0 +1,32 @@
+{
+  "_comment": "Short-lap hunt: quick repeatable runs. Caps drops at 1000 ft, shuttles at 20 min, road access at 500 ft hard / 250 ft preferred; harsh on climbing. Now also seeds ends on the road network (ridgeline descents).",
+  "hard": {
+    "min_drop_ft": 400.0,
+    "max_drop_ft": 1000.0,
+    "max_drive_time_min": 20.0,
+    "min_pair_distance_mi": 0.15,
+    "max_pair_distance_mi": 4.0
+  },
+  "weights": {
+    "drop_efficiency": 0.2,
+    "access_proximity": 0.35,
+    "intermediate_climb": 0.25,
+    "grade_consistency": 0.1,
+    "drivability": 0.1
+  },
+  "params": {
+    "road_access_mi": 0.0947,
+    "local_extrema_window_m": 300.0,
+    "max_start_candidates": 150,
+    "max_end_candidates": 150,
+    "candidate_min_spacing_m": 800.0,
+    "road_endpoint_spacing_m": 400.0
+  },
+  "ramps": {
+    "drop_full_credit_ft": 800.0,
+    "access_preferred_ft": 250.0,
+    "drive_preferred_min": 8.0,
+    "climb_tolerance_fraction": 0.12,
+    "grade_std_ceiling_pct": 25.0
+  }
+}

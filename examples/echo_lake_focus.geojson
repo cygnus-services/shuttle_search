@@ -1,0 +1,17 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Echo Lake focus area (debugging)",
+    "note": "Small box around Echo Lake, NW of Georgetown Lake, for shuttle_scout.diagnose"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-113.38, 46.19],
+      [-113.28, 46.19],
+      [-113.28, 46.26],
+      [-113.38, 46.26],
+      [-113.38, 46.19]
+    ]]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_comment": "Reconnaissance mode: big polygon, 30 m cells, wide-open candidate pool. ~9x faster per square mile than the 10 m default. Use the results to draw small polygons for fine runs (default profile or short_laps).",
+  "params": {
+    "cell_size_m": 30.0,
+    "local_extrema_window_m": 600.0,
+    "max_start_candidates": 250,
+    "max_end_candidates": 250,
+    "candidate_min_spacing_m": 1500.0,
+    "max_ranked_pairs": 25,
+    "routes_per_pair": 1,
+    "route_corridor_min_m": 1500.0
+  },
+  "ramps": {
+    "drive_preferred_min": 15.0
+  }
+}

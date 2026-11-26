@@ -1,0 +1,17 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Anaconda / Mount Haggin test area",
+    "note": "Anaconda Range foothills SW of Anaconda MT, inside DEM tile n47w113 and NHD HUC8 17010201"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-113.22, 46.02],
+      [-112.92, 46.02],
+      [-112.92, 46.22],
+      [-113.22, 46.22],
+      [-113.22, 46.02]
+    ]]
+  }
+}

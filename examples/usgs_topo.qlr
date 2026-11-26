@@ -1,0 +1,23 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="usgs_topo_ss" name="USGS Topo" source="type=xyz&amp;url=https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D&amp;zmax=16&amp;zmin=0" providerKey="wms"/>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer type="raster" name="USGS Topo" refreshOnNotifyEnabled="0" autoRefreshEnabled="0">
+      <id>usgs_topo_ss</id>
+      <datasource>type=xyz&amp;url=https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D&amp;zmax=16&amp;zmin=0</datasource>
+      <layername>USGS Topo</layername>
+      <srs>
+        <spatialrefsys>
+          <authid>EPSG:3857</authid>
+        </spatialrefsys>
+      </srs>
+      <provider>wms</provider>
+      <noData/>
+      <pipe>
+        <rasterrenderer opacity="1" type="singlebandcolordata" band="1"/>
+      </pipe>
+    </maplayer>
+  </maplayers>
+</qlr>
